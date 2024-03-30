@@ -4,7 +4,7 @@ local TS = require("codegpt.parser")
 
 local CommandsList = {}
 local cmd_default = {
-    model = "gpt-4-turbo",
+    model = "gpt-4-1106-preview",
     max_tokens = 4096,
     temperature = 0.1,
     number_of_choices = 1,
